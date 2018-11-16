@@ -1,0 +1,27 @@
+{
+  "name": "interactive-host",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "start": "webpack --watch --config webpack.config.js",
+    "build": "webpack --config webpack.config.js"
+  },
+  "keywords": [],
+  "author": "Microsoft",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3",
+    "styled-components": "^4.1.1"
+  },
+  "devDependencies": {
+    "@types/react": "^16.7.6",
+    "@types/react-dom": "^16.0.9",
+    "@types/styled-components": "^4.1.0",
+    "ts-loader": "^4.2.0",
+    "typescript": "^3.1.6",
+    "webpack": "^4.25.1",
+    "webpack-cli": "^3.1.2"
+  }
+}

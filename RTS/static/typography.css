@@ -1,0 +1,23 @@
+@font-face {
+  font-family: 'flow-rounded';
+  src: url('./assets/fonts/flow-rounded.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'flow-circular';
+  src: url('./assets/fonts/flow-circular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+body {
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+}
+
+.dummy-text {
+  font-family: 'flow-circular',-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  /* font-family: 'flow-rounded',-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif; */
+}
