@@ -1,0 +1,17 @@
+a {
+  cursor: pointer;
+  color: var(--clr-link);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.link--no-style {
+  color: inherit;
+}
+
+.link--no-style:hover {
+  text-decoration: none;
+}

@@ -1,0 +1,80 @@
+.mdl2 {
+  font-family: 'Full MDL2 Assets';
+  font-size: 16px;
+}
+
+.segoe {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.fs14 {
+  font-size: 0.875rem;
+}
+.fs16 {
+  font-size: 1rem;
+}
+.fs24 {
+  font-size: 1.5rem;
+}
+.fs32 {
+  font-size: 2rem;
+}
+
+.fw1 {
+  font-weight: 100;
+}
+.fw2 {
+  font-weight: 200;
+}
+.fw4 {
+  font-weight: 400;
+}
+.fw6 {
+  font-weight: 600;
+}
+.fw7 {
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'Full MDL2 Assets';
+  src: url('../../assets/fonts/FullMDL2.woff2');
+}
+
+@font-face {
+  font-family: ' Segoe UI ';
+  src: local(' Segoe UI Light'), url('//c.s-microsoft.com/static/fonts/segoe-ui/west-european/Light/latest.woff2') format('woff2'),
+    url('//c.s-microsoft.com/static/fonts/segoe-ui/west-european/Light/latest.woff') format('woff');
+  font-weight: 100;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Segoe UI';
+  src: local('Segoe UI Semilight'), url('//c.s-microsoft.com/static/fonts/segoe-ui/west-european/Semilight/latest.woff2') format('woff2'),
+    url('//c.s-microsoft.com/static/fonts/segoe-ui/west-european/Semilight/latest.woff') format('woff');
+  font-weight: 200;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Segoe UI';
+  src: local('Segoe UI'), url('//c.s-microsoft.com/static/fonts/segoe-ui/west-european/normal/latest.woff2') format('woff2'),
+    url('//c.s-microsoft.com/static/fonts/segoe-ui/west-european/normal/latest.woff') format('woff');
+  font-weight: 400;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Segoe UI';
+  src: local('Segoe UI Semibold'), url('//c.s-microsoft.com/static/fonts/segoe-ui/west-european/Semibold/latest.woff2') format('woff2'),
+    url('//c.s-microsoft.com/static/fonts/segoe-ui/west-european/Semibold/latest.woff') format('woff');
+  font-weight: 600;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Segoe UI';
+  src: local('Segoe UI Bold'), url('//c.s-microsoft.com/static/fonts/segoe-ui/west-european/Bold/latest.woff2') format('woff2'),
+    url('//c.s-microsoft.com/static/fonts/segoe-ui/west-european/Bold/latest.woff') format('woff');
+  font-weight: 700;
+  font-display: swap;
+}

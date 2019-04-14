@@ -1,0 +1,16 @@
+:root {
+  --clr-accent: var(--blue-magenta-30);
+  --clr-accent-contrast: white;
+  --clr-page-background: var(--grey-20);
+  --clr-page-background-contrast: var(--grey-210);
+  --clr-card-background: white;
+  --clr-card-background-contrast: var(--grey-210);
+  --clr-link: #0078d4;
+  --clr-focus-ring: var(--orange-20);
+
+  /* Raw colors, don't use directly */
+  --blue-magenta-30: #005b70;
+  --orange-20: #ca5010;
+  --grey-20: #f3f2f1;
+  --grey-210: #161514;
+}

@@ -3,9 +3,8 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 const CleanWebpackPlugin = require('clean-webpack-plugin');
 
 const pages = [
-  { bundleName: 'page1', entry: './pages/page1.jsx' },
-  { bundleName: 'page2', entry: './pages/page2.jsx' },
-  { bundleName: 'page3', entry: './pages/folder/page3.jsx' },
+  { bundleName: 'home', entry: './pages/home.jsx', template: './templates/default.html' },
+  { bundleName: 'site', entry: './pages/site.jsx', template: './templates/default.html' },
 ];
 
 const pageEntries = pages.reduce((obj, page) => {
@@ -18,6 +17,7 @@ const htmlWebpackPlugins = pages.map(
     new HtmlWebpackPlugin({
       chunks: [page.bundleName],
       filename: `${page.bundleName}.html`,
+      template: page.template,
     })
 );
 
@@ -27,8 +27,19 @@ module.exports = {
     rules: [
       {
         test: /\.(js|jsx)$/,
-        exclude: /node_modules/,
         use: ['babel-loader'],
+      },
+      {
+        test: /\.css$/,
+        use: [{ loader: 'style-loader' }, { loader: 'css-loader' }],
+      },
+      {
+        test: /\.(png|svg|jpg|gif)$/,
+        use: ['file-loader'],
+      },
+      {
+        test: /\.(woff|woff2|eot|ttf|otf)$/,
+        use: ['file-loader'],
       },
     ],
   },

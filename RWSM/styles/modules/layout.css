@@ -1,0 +1,6 @@
+.layout-center-clamp {
+  max-width: 1080px;
+  margin: 0 auto;
+  padding-left: 40px;
+  padding-right: 40px;
+}

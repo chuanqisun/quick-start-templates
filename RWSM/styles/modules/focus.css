@@ -1,0 +1,12 @@
+/* class applied by javascript from focus-visible polyfill
+https://github.com/WICG/focus-visible */
+.js-focus-visible :focus:not(.focus-visible) {
+  outline: none;
+}
+
+.focus-visible {
+  outline-width: 2px;
+  outline-style: solid;
+  outline-color: var(--clr-focus-ring);
+  outline-offset: -2px;
+}

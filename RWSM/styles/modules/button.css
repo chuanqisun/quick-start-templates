@@ -1,0 +1,24 @@
+.btn {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.btn--boxed {
+  border-radius: 4px;
+  height: 32px;
+  padding: 0 16px;
+  font: 600 14px 'Segoe UI';
+  display: inline-flex;
+  align-items: center;
+}
+
+.btn--primary {
+  background-color: var(--clr-accent);
+  color: var(--clr-accent-contrast);
+}
+
+.btn__left-icon {
+  margin-right: 8px;
+}

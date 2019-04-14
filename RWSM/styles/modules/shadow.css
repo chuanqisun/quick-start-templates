@@ -1,0 +1,27 @@
+:root {
+  --shadow-d4: 0 1.6px 3.6px 0 rgba(0, 0, 0, 0.132), 0 0.3px 0.9px 0 rgba(0, 0, 0, 0.108);
+  --shadow-d8: 0 3.2px 7.2px 0 rgba(0, 0, 0, 0.132), 0 0.6px 1.8px 0 rgba(0, 0, 0, 0.108);
+  --shadow-d16: 0 6.4px 14.4px 0 rgba(0, 0, 0, 0.132), 0 1.2px 3.6px 0 rgba(0, 0, 0, 0.108);
+}
+
+.shadow--clickable {
+  box-shadow: var(--shadow-d4);
+  will-change: box-shadow, transform;
+  transition: box-shadow var(--duration-200), transform var(--duration-200);
+}
+
+.shadow--clickable:focus,
+.shadow--clickable:hover {
+  box-shadow: var(--shadow-d16);
+  transform: translateY(-2px);
+}
+
+.shadow--clickable:focus-within {
+  box-shadow: var(--shadow-d16);
+  transform: translateY(-2px);
+}
+
+.shadow--clickable:active {
+  box-shadow: var(--shadow-d4);
+  transform: translateY(0);
+}
