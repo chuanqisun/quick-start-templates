@@ -1,17 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import 'focus-visible/dist/focus-visible';
-import '../styles/default-theme.css';
 
-import { withAppShell } from '../components/app-shell/app-shell';
-import { SiteList } from '../components/site-list/site-list';
-
-const HomeWindow = withAppShell(SiteList);
+import { Hero } from '../components/hero/hero';
+import { GlobalStyle } from '../styles';
 
 function AppRoot() {
   return (
     <>
-      <HomeWindow />
+      <GlobalStyle />
+      <Hero />
     </>
   );
 }
