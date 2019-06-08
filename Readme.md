@@ -1,6 +1,7 @@
 - H: html
 - LTW: lit-html + typescript + webpack
 - LTWW: lit-html + typescript + webpack + web-component
-- RTS: react + typescript + styled-components
+- RTWS: react + typescript + styled-components
+- RTWSM: react + typescript + webpack + styled-components + multi-page application
 - RWCSM: react + webpack + CSS + styled-components + multi-page application
 - RWSM: react + webpack + styled-components + multi-page application
