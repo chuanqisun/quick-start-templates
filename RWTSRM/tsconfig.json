@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist/",
+    "sourceMap": true,
+    "strict": true,
+    "module": "esnext",
+    "target": "es6",
+    "jsx": "react",
+    "lib": ["dom", "es6"]
+  },
+  "include": ["./src/**/*"]
+}

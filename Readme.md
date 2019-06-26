@@ -5,4 +5,5 @@
 - RTWSM: react + typescript + webpack + styled-components + multi-page application
 - RWCSM: react + webpack + CSS + styled-components + multi-page application
 - RWSM: react + webpack + styled-components + multi-page application
+- RWTSRM: react + webpack + typrscript + styled-components + react-router + multi-page application
 - SR: svelte + rollup
