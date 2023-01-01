@@ -16,18 +16,18 @@
     "@types/react": "^16.8.22",
     "@types/styled-components": "^4.1.16",
     "clean-webpack-plugin": "^3.0.0",
-    "file-loader": "^4.0.0",
-    "html-webpack-plugin": "^4.0.0-beta.5",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.5.0",
     "react-dom": "^16.8.6",
     "react-router-dom": "^5.0.1",
     "react": "^16.8.6",
     "styled-components": "^4.3.2",
-    "ts-loader": "^6.0.4",
+    "ts-loader": "^9.4.2",
     "typescript": "^3.5.2",
-    "webpack-cli": "^3.3.5",
+    "webpack-cli": "^5.0.1",
     "webpack-dev-server": "^3.7.2",
     "webpack-merge": "^4.2.1",
-    "webpack": "^4.35.0"
+    "webpack": "^5.75.0"
   },
   "babel": {
     "presets": [
